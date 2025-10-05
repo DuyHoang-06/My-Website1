@@ -1,0 +1,69 @@
+/* 2. Create a single stylesheet for all three pages */
+
+/* 3. Body: font family + font size */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+/* 4. Header: background color */
+header {
+  background-color: #f2f2f2;
+}
+
+/* 5. Nav: background color */
+nav {
+  background-color: #23395d;
+  height: 25px;
+}
+
+/* 6. Main: background color + font size */
+main {
+  background-color: #fff;
+  font-size: 18px;
+}
+
+/* 7. Footer: background color */
+footer {
+  background-color: #ddd;
+}
+
+/* 8. li: display + width */
+li {
+  display: inline-block;
+  width: 120px;
+}
+
+/* 9. h1: text alignment, font family, color */
+h1 {
+  text-align: center;
+  font-family: "Georgia", serif;
+  color: #0066cc;
+}
+
+/* 10. p: line height */
+p {
+  line-height: 1.6;
+}
+a {
+  color: white;
+}
+
+
+.content {
+  display: flex;
+  align-items: center; 
+  gap: 20px; 
+}
+
+.content img {
+  width: 50%;  
+  height: auto;
+}
+
+.content p {
+  width: 50%;  
+  text-align: justify; 
+}
+
+
